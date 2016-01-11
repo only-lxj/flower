@@ -1,0 +1,72 @@
+/* CSS Document */
+body,ul,li,img,a,h1,li,p{
+	margin:0;
+	padding:0;
+	font-size:16px;
+	font-family:"微软雅黑";
+	list-style:none;
+	text-decoration:none;
+}
+#bg{
+	position:absolute;
+	width:100%;
+	height:100%;
+	z-index:-1;
+}
+#bg img{
+	position:fixed;
+	width:100%;
+	height:100%;
+}
+#main{
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-270px;
+	margin-left:-350px;
+	width:700px;
+	height:540px;
+	text-align:center;
+	background-color:rgba(222,200,203,0.8);
+}
+#main #left{
+	width:85px;
+	float:left;
+	margin:90px 0 0 90px;
+}
+#main #left h1{
+	font-size:84px;
+	color:#4d3646;
+	font-weight:normal;
+	font-family:"宋体";
+}
+#form{
+	color:#704758;
+	margin-top:75px;
+}
+#form input{
+	background-color:rgba(212,211,203,0);
+	border:2px solid #898989;
+	width:300px;
+	height:40px;
+	margin-top:25px;
+	color:#704758;
+	font-size:18px;
+	padding:0 10px;
+}
+#form input[type="submit"]{
+	width:275px;
+	height:50px;
+	border:0;
+	background:#b3a3b7;
+	color:#000;
+	font-size:24px;
+	cursor:pointer;
+}
+#form input[type="radio"]{
+	font-size:18px;
+	width:14px;
+	height:14px;
+	background:#000;
+	margin-left:34px;
+}
