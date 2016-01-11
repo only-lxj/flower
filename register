@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="images/icon/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="style/registerCSS.css" />
+<title>注册</title>
+</head>
+
+<body>
+
+<div id="bg">
+	<img src="images/login.jpg" />
+</div>
+	
+<div id="main">
+	<div id="left">
+		<h1>未闻花名</h1>
+	</div>
+    <form id="form" action="regCheck.php" method="post" onSubmit="return checkForm();">  
+        <input type="text" name="username" id="username" placeholder="姓名" /><br/> 
+        性别<input type="radio" value="男" name="gender" />男<input type="radio" value="女" name="gender" />女<br/> 
+        <input type="password" name="password" id="password" placeholder="密码（6-14位字母、数字组合）" /><br/>  
+        <input type="password" name="confirm" id="confirm" placeholder="确认密码" /><br/>
+        <input type="text" name="phone" id="phone" placeholder="手机号" /><br/>
+        <input type="Submit" name="Submit" value="注册"/>
+    </form>
+</div>
+</body>
+</html>
